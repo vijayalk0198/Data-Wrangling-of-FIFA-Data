@@ -40,6 +40,28 @@ New features were created to enhance the dataset’s analytical value, such as:
 •	Performance Per Wage Feature: A ratio of overall rating (OVA) to wage, helping assess player efficiency.
 •	Age Bracket Segmentation: Categorized players into different age groups for trend analysis.
 •	Position Versatility Feature: Counted the number of positions a player could play based on available data.
+
+### Data Cleaning:
+1. **Removing Duplicates:** Duplicate records were identified and removed to ensure data integrity.  
+2. **Fixing Inconsistencies:** Inconsistencies in naming conventions, categorical values, and column formats were corrected.  
+3. **Handling Missing Values:** Missing data was handled using various techniques such as imputation, deletion, or marking them as NaN where applicable.  
+4. **Renaming and Dropping Columns:** Certain columns were renamed for better readability, while irrelevant or redundant columns were removed.  
+
+### Data Validation and Standardization:
+1. **Fixing Data Types:** Ensured that all columns had appropriate data types (e.g., converting date-related columns to datetime format).  
+2. **Reordering Columns:** Columns were reorganized to enhance the dataset’s readability and logical flow.  
+3. **Data Validation:** Applied numerical and logical checks to confirm data accuracy. For instance:  
+   - Ensured that ‘Joined Date’ was earlier than or equal to ‘Contract Start Year’.  
+   - Verified that ‘Loan End Date’ values were valid based on player status.  
+   - Cross-checked that statistical totals matched expected sums.  
+
+### Feature Engineering:
+New features were created to enhance the dataset’s analytical value, such as:  
+- **Player Experience Feature:** Measured as the difference between 'Contract End Year' and 'Contract Start Year'.  
+- **Performance Per Wage Feature:** A ratio of overall rating (OVA) to wage, helping assess player efficiency.  
+- **Age Bracket Segmentation:** Categorized players into different age groups for trend analysis.  
+- **Position Versatility Feature:** Counted the number of positions a player could play based on available data.  
+
 ________________________________________
 **Learnings:**
 1.	A Systematic Approach to Data Wrangling is Essential: Cleaning and preprocessing data requires a structured plan to ensure efficiency and accuracy.
