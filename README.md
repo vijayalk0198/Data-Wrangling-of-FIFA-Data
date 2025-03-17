@@ -62,7 +62,7 @@ New features were created to enhance the dataset’s analytical value, such as:
 
 
 ________________________________________
-**Learnings:**
+## Learnings:
 1.	A Systematic Approach to Data Wrangling is Essential: Cleaning and preprocessing data requires a structured plan to ensure efficiency and accuracy.
 2.	Handling Missing & Inconsistent Data is Crucial: Properly addressing missing values and inconsistencies prevents data biases and inaccuracies.
 3.	Data Naming & Column Ordering Conventions Improve Readability: Standardized naming and well-organized columns enhance dataset usability.
