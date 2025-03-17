@@ -19,48 +19,47 @@ This project was carried out using Jupyter Notebook, leveraging Python libraries
 - Feature Engineering  
 
 ________________________________________
-**Methodology:**
-1. Data Loading and Exploration:
+
+## Methodology
+
+### 1. Data Loading and Exploration:
 The dataset was loaded into a Pandas DataFrame, and an initial exploratory analysis was performed to understand its structure, missing values, and inconsistencies.
-2. Data Cleaning:
-2.1 Removing Duplicates: Duplicate records were identified and removed to ensure data integrity.
-2.2 Fixing Inconsistencies: Inconsistencies in naming conventions, categorical values, and column formats were corrected.
-2.3 Handling Missing Values: Missing data was handled using various techniques such as imputation, deletion, or marking them as NaN where applicable.
-2.4 Renaming and Dropping Columns: Certain columns were renamed for better readability, while irrelevant or redundant columns were removed.
-3. Data Validation and Standardization:
-3.1 Fixing Data Types: Ensured that all columns had appropriate data types (e.g., converting date-related columns to datetime format).
-3.2 Reordering Columns: Columns were reorganized to enhance the dataset’s readability and logical flow.
-3.3 Data Validation: Applied numerical and logical checks to confirm data accuracy. For instance:
-•	Ensured that ‘Joined Date’ was earlier than or equal to ‘Contract Start Year’.
-•	Verified that ‘Loan End Date’ values were valid based on player status.
-•	Cross-checked that statistical total matched expected sums.
-4. Feature Engineering:
+
+### 2. Data Cleaning:
+#### 2.1 Removing Duplicates:
+- Duplicate records were identified and removed to ensure data integrity.
+
+#### 2.2 Fixing Inconsistencies:
+- Inconsistencies in naming conventions, categorical values, and column formats were corrected.
+
+#### 2.3 Handling Missing Values:
+- Missing data was handled using various techniques such as imputation, deletion, or marking them as NaN where applicable.
+
+#### 2.4 Renaming and Dropping Columns:
+- Certain columns were renamed for better readability, while irrelevant or redundant columns were removed.
+
+### 3. Data Validation and Standardization:
+#### 3.1 Fixing Data Types:
+- Ensured that all columns had appropriate data types (e.g., converting date-related columns to datetime format).
+
+#### 3.2 Reordering Columns:
+- Columns were reorganized to enhance the dataset’s readability and logical flow.
+
+#### 3.3 Data Validation:
+Applied numerical and logical checks to confirm data accuracy. For instance:
+- Ensured that **‘Joined Date’** was earlier than or equal to **‘Contract Start Year’**.
+- Verified that **‘Loan End Date’** values were valid based on player status.
+- Cross-checked that statistical totals matched expected sums.
+
+### 4. Feature Engineering:
 New features were created to enhance the dataset’s analytical value, such as:
-•	Player Experience Feature: Measured as the difference between 'Contract End Year' and 'Contract Start Year'.
-•	Performance Per Wage Feature: A ratio of overall rating (OVA) to wage, helping assess player efficiency.
-•	Age Bracket Segmentation: Categorized players into different age groups for trend analysis.
-•	Position Versatility Feature: Counted the number of positions a player could play based on available data.
+- **Player Experience Feature:** Measured as the difference between **'Contract End Year'** and **'Contract Start Year'**.
+- **Performance Per Wage Feature:** A ratio of **overall rating (OVA) to wage**, helping assess player efficiency.
+- **Age Bracket Segmentation:** Categorized players into different age groups for trend analysis.
+- **Position Versatility Feature:** Counted the number of positions a player could play based on available data.
 
-### Data Cleaning:
-1. **Removing Duplicates:** Duplicate records were identified and removed to ensure data integrity.  
-2. **Fixing Inconsistencies:** Inconsistencies in naming conventions, categorical values, and column formats were corrected.  
-3. **Handling Missing Values:** Missing data was handled using various techniques such as imputation, deletion, or marking them as NaN where applicable.  
-4. **Renaming and Dropping Columns:** Certain columns were renamed for better readability, while irrelevant or redundant columns were removed.  
 
-### Data Validation and Standardization:
-1. **Fixing Data Types:** Ensured that all columns had appropriate data types (e.g., converting date-related columns to datetime format).  
-2. **Reordering Columns:** Columns were reorganized to enhance the dataset’s readability and logical flow.  
-3. **Data Validation:** Applied numerical and logical checks to confirm data accuracy. For instance:  
-   - Ensured that ‘Joined Date’ was earlier than or equal to ‘Contract Start Year’.  
-   - Verified that ‘Loan End Date’ values were valid based on player status.  
-   - Cross-checked that statistical totals matched expected sums.  
 
-### Feature Engineering:
-New features were created to enhance the dataset’s analytical value, such as:  
-- **Player Experience Feature:** Measured as the difference between 'Contract End Year' and 'Contract Start Year'.  
-- **Performance Per Wage Feature:** A ratio of overall rating (OVA) to wage, helping assess player efficiency.  
-- **Age Bracket Segmentation:** Categorized players into different age groups for trend analysis.  
-- **Position Versatility Feature:** Counted the number of positions a player could play based on available data.  
 
 ________________________________________
 **Learnings:**
