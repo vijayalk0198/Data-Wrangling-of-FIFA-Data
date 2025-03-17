@@ -14,9 +14,10 @@ Since the dataset is in its raw format, it serves as an excellent resource for u
 ________________________________________
 **Tools & Concepts Explored:**
 This project was carried out using Jupyter Notebook, leveraging Python libraries such as Pandas and NumPy for data manipulation and cleaning. The primary concepts explored include:
-•	Data Cleaning
-•	Data Validation and Standardization
-•	Feature Engineering
+- Data Cleaning  
+- Data Validation and Standardization  
+- Feature Engineering  
+
 ________________________________________
 **Methodology:**
 1. Data Loading and Exploration:
