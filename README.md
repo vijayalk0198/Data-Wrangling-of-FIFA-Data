@@ -1,9 +1,11 @@
 # Data-Wrangling-of-FIFA-Data
 Project Title:
 Data Wrangling of FIFA 21 (Football) Dataset
+
 Description:
 Data collected from various sources—whether through web scraping, databases, or live streams—is rarely clean or structured in a way that is immediately suitable for analysis. Before performing any form of analysis, ensuring the quality and reliability of data through proper validation and cleaning is essential.
 Cleaning and preprocessing data from the 2021 version of the FIFA game, which was scraped from a website and is available in its raw format. The dataset contains over 18,000 rows and 75 columns, providing an excellent opportunity to apply various data wrangling techniques. This process ensures the dataset is accurate, consistent, and ready for meaningful analysis.
+
 Dataset Overview:
 The dataset used for this project is available on Kaggle and contains 18,979 entries and 77 columns. It includes metrics related to player attributes such as name, age, nationality, and club, along with contract details like wages, joining dates, and duration with the team. Additionally, it provides data on player capabilities, including agility, attacking, defending, and goalkeeping skills, as well as overall ratings.
 Since the dataset is in its raw format, it serves as an excellent resource for understanding data preprocessing steps and applying various data wrangling techniques.
